@@ -9,13 +9,13 @@
   <body>
     <div class="content">
       <h1>Calculator</h1>
-      <input id="input box" type="text" value="0" class="input-lg input-super-lg" />
+      <input id="input_box" type="text" value="0" class="input-lg input-super-lg" />
       <div class="operators">
         <button class="operator-button btn btn-primary btn-lg" data-operator="add"> + </button>
         <button class="operator-button btn btn-primary btn-lg" data-opeartor="subtract"> - </button>
         <button class="operator-button btn btn-primary btn-lg" data-opearator="multiply"> X </button>
         <button class="operator-button btn btn-primary btn-lg" data-operator="divide"> / </button>
-         <button class="operator-button btn btn-primary btn-lg" data-operator="equal"> = </button>
+        <button class="operator-button btn btn-primary btn-lg" data-operator="equal"> = </button>
       </div>
       <div calss="numbers">
         <button class="num-button btn btn-success btn-lg" data-num="1">1</button>
@@ -31,8 +31,11 @@
         <button class="num-button btn btn-success btn-lg" data-num="9">9</button>
         <button class="num-button btn btn-success btn-lg" data-num="0">0</button>
       </div>
+      <div class="clear">
+        <button class="clear-button btn btn-warning btn-xl">Clear</button>
+      </div>
     </div>
-      <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-      <script srv="javascript.js"></script>
+      <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="calculator.js"></script>
   </body>
 </html>

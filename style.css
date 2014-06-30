@@ -1,18 +1,23 @@
 body {
-  background-color: #f4f4f4;
+  background-color:#f4f4f4;
 }
 .content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-  background-color: #fff;
-  padding: 50px 20px 100px 20px;
+  margin-left:auto;
+  margin-right:auto;
+  width:600px;
+  background-color:#fff;
+  padding:50px 20px 100px 20px;
 }
 .input-super-lg {
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  display:block;
+  margin-top:20px;
+  margin-bottom:20px;
 }
-.numbers,.operators {
-  margin-bottom: 6px;
+.numbers, .operators, .clear-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.clear-button {
+  display: block;
 }
